@@ -17,6 +17,8 @@ Changes overview:
 - Update the requirejs.config statement in main.js to use '/' as root instead of '/App/'. 
   This removes the relative paths on which the intellisense script breaks.
 
+For a more extensive description of the changes, see 'Durandal IntalliSense Adaptation Guide.rtf'.
+
 Notes:
 - main.js and _references.js include an identical requirejs.config statement. This could be moved to a single file, 
 referenced by both (as demonstrated in Joseph's version). However I could not get this to work (yet) with the Durandal 2.0 architecture.
